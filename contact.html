@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Bootstrap Basic Portfolio</title>
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
+  </head>
+<body>
+
+    <div class="wrap">
+      <div class="container">
+        <section class="row">
+          <div class="col-md-8">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left navbar-left-custom">
+              <li style="float:right"><a class="active" href="index.html">Home</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+  
+            <form class="contact-form">
+              <h1 class="contact-form-header">Contact</h1>
+              <hr class="contact-hr"/>
+              <div class="form-group">
+                <label class="label-name" for="name">Name</label>
+                <input type="text" id="name_input" name="user_name" />
+              </div>
+              <div class="form-group">
+                <label class="label-mail" for="mail">E-mail</label>
+                <input type="email" id="mail_input" name="user_mail" />
+              </div>
+              <div class="form-group">
+                <label class="label-msg" for="msg">Message</label><br />
+                <textarea id="msg" name="user_message_input" cols=600></textarea>
+              </div>
+              <button class="submit-btn">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+
+            <!-- Start of Connect With Me Area -->
+            <section id="connect-with-me-area">
+              <div class="connect-with-me-content">
+                <h1 class="connect-with-me-header">Connect With Me</h1>
+                <hr />
+                <div id="images">
+                   <a href="https://www.facebook.com/percyjimenez2">
+                  <img src="assets/imgs/fb.png" alt="Cinque Terre" class="img-thumbnail">
+                  <a href="https://www.linkedin.com/in/percyjimenez">
+                  <img src="assets/imgs/linkedin.png" alt="Cinque Terre" class="img-thumbnail">
+                  <a href="https://stackoverflow.com/users/7811838/percy-jimenez">
+                  <img src="assets/imgs/stackover2.png" alt="Cinque Terre" class="img-thumbnail">
+                  <a href="https://github.com/percy0819">
+                  <img src="assets/imgs/github.png" alt="Cinque Terre" width="132" height="132">
+                </div>
+              </div>
+            </section>
+
+            <!-- End of the Connect With Me Area -->
+          </div>
+        </section>
+      </div>
+    </div>
+
+  <footer>
+    <div class="container">
+      &copy; Percy RCT
+    </div>
+  </footer>
+</body>
+</html>
